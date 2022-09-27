@@ -9,9 +9,9 @@ export const GlobalStyle = createGlobalStyle`
   
   body {
     font-family: 'Satoshi', sans-serif;
-    height: 100%;
-    background-color: ${({ theme }) => theme.colors.dark};
+    /* background-color: ${({ theme }) => theme.colors.dark}; */
     color: #FFFFFF;
+    background-color: #f5f2ea; 
   }
   
   a, button, input, textarea {
